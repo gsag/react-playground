@@ -1,0 +1,10 @@
+{
+	"editor.renderWhitespace": "all",
+	"editor.renderControlCharacters": true,
+	"editor.tabCompletion": "on",
+	"editor.formatOnSave": true,
+	"eslint.experimental.useFlatConfig": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
