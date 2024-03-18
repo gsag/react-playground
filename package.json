@@ -7,7 +7,10 @@
     "prebuild": "npm run preinstall",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "lint:fix": "eslint --fix ./src --ext .ts,.tsx",
+    "serve": "npm run build && serve -s build -p 3000"
   },
   "dependencies": {
     "react": "^18.2.0",
