@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "mariospapa.vscode-clean-imports-on-save",
+        "bierner.github-markdown-preview",
+        "ms-vscode-remote.remote-containers",
+        "jawandarajbir.react-vscode-extension-pack",
+        "christian-kohler.path-intellisense",
+        "christian-kohler.npm-intellisense"
+    ]
+}
