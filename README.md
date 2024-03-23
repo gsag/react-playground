@@ -1,53 +1,19 @@
-# url-shortener
+# URL SHORTENER
 
-An URL Shortener study project made with React
+The goal of this project is to create a simple url shortener using react as primary front-end library as studies purposes.
 
-# Getting Started with Create React App
+## Before start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-`> npx create-react-app url-shortener --template typescript`
+Install nvm or similiar - https://github.com/coreybutler/nvm-windows  
+**.nvmrc** file describes project's nodejs version.  
+**node-install.ps1** file configures nodejs version on nvm.
 
-## Available Scripts
+Run `npm start` for start local dev server or `npm serve` to build and run the application.
 
-In the project directory, you can run:
+## Which tecnologies this project uses?
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## ES Lint
-```
-√ How would you like to use ESLint? · style
-√ What type of modules does your project use? · esm
-√ Which framework does your project use? · react
-√ Does your project use TypeScript? · No / Yes
-√ Where does your code run? · browser
-√ How would you like to define a style for your project? · guide
-√ Which style guide do you want to follow? · standard-with-typescript
-√ What format do you want your config file to be in? · JSON
-```
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   **Typescript** for better javascript code typing.
+-   **React** for app construction and componentization.
+-   **Vite** for build and tooling.
+-   **ESLint** for code best practices and linting.
+-   **Prettier** for code formatting.
