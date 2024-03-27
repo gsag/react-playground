@@ -7,7 +7,7 @@
     "preinstall": "powershell .\\node-install.ps1",
     "prebuild": "npm run preinstall",
     "start": "npm install && vite --port 3000 --open",
-    "build": "tsc && vite build --sourcemap",
+    "build": "tsc && vite build --sourcemap --emptyOutDir",
     "serve": "npm run build && vite preview --port 3000 --open",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx ",
@@ -15,9 +15,13 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.12",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.1.8"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
@@ -39,6 +43,7 @@
     "prettier": "3.2.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.4.0"
   }
 }

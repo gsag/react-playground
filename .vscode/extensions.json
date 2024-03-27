@@ -7,6 +7,7 @@
         "ms-vscode-remote.remote-containers",
         "jawandarajbir.react-vscode-extension-pack",
         "christian-kohler.path-intellisense",
-        "christian-kohler.npm-intellisense"
+        "christian-kohler.npm-intellisense",
+        "styled-components.vscode-styled-components"
     ]
 }
