@@ -4,10 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "preinstall": "powershell .\\node-install.ps1",
-    "start": "npm install && vite --port 3000 --open",
-    "build": "npm install && tsc && vite build --sourcemap --emptyOutDir",
-    "build:ci": "tsc && vite build --sourcemap --emptyOutDir",
+    "configure": "powershell .\\node-install.ps1 && npm install",
+    "start": "npm run configure && vite --port 3000 --open",
+    "build": "tsc && vite build --sourcemap --emptyOutDir",
     "serve": "npm run build && vite preview --port 3000 --open",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx ",
