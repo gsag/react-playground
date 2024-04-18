@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "preinstall": "powershell .\\node-install.ps1",
-    "prebuild": "npm run preinstall",
     "start": "npm install && vite --port 3000 --open",
-    "build": "tsc && vite build --sourcemap --emptyOutDir",
+    "build": "npm install && tsc && vite build --sourcemap --emptyOutDir",
     "build:ci": "tsc && vite build --sourcemap --emptyOutDir",
     "serve": "npm run build && vite preview --port 3000 --open",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
