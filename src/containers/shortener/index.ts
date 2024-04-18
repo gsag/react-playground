@@ -1,1 +1,1 @@
-export {default} from "./ShortenerPage";
+export {default} from "./ShortenerPage.container";

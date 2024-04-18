@@ -6,5 +6,15 @@
 	"eslint.experimental.useFlatConfig": true,
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+		".eslintrc.*": ".eslintrc.*, .eslintignore",
+		"*.component.tsx": "${capture}.component.*.tsx",
+		"*.container.tsx": "${capture}.container.*.tsx",
+		"*.hook.tsx": "${capture}.hook.*.tsx",
 	}
 }
