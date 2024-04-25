@@ -16,5 +16,6 @@
 		"*.component.tsx": "${capture}.component.*.tsx",
 		"*.container.tsx": "${capture}.container.*.tsx",
 		"*.hook.tsx": "${capture}.hook.*.tsx",
+		".env": ".env.local"
 	}
 }
