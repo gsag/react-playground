@@ -1,8 +1,8 @@
-import Environment from "@/vite-env"
-import { createContext } from "react"
+import Environment from '@/vite-env'
+import { createContext } from 'react'
 
 export interface MainContextProps {
-    API_KEY: string | undefined
+    API_KEY: string
 }
 
 export const defaultValue: MainContextProps = {

@@ -6,11 +6,11 @@ import ShortenerPage from '@/containers/shortener'
 import MainContext, { defaultValue } from '@/contexts/Main.context'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <React.StrictMode>
+    <React.Fragment>
         <CssBaseline />
         <Global styles={GlobalStyles} />
         <MainContext.Provider value={defaultValue}>
             <ShortenerPage />
         </MainContext.Provider>
-    </React.StrictMode>
+    </React.Fragment>
 )
