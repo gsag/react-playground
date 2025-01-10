@@ -9,5 +9,4 @@ const GlobalStyles = css`
         font-family: Roboto, sans-serif;
     }
 `
-export { default as CssBaseline } from '@mui/material/CssBaseline'
 export default GlobalStyles

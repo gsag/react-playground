@@ -1,8 +1,8 @@
-# URL SHORTENER
+# REACT PLAYGROUND
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03e87063-5161-42f8-a543-0c535a43ab61/deploy-status?branch=main)](https://app.netlify.com/sites/gsag-react-pg/deploys)
 
-The goal of this project is to create a simple url shortener using react as primary front-end library as studies purposes.
+Just a playground repo using React + Vite and related stuff.
 
 Created with command `npm create vite@latest`
 
@@ -18,7 +18,6 @@ Run `npm start` for start local dev server or `npm serve` to build and run the a
 
 -   **Typescript** for better javascript code typing.
 -   **React** for app construction and componentization.
--   **Material UI (MUI)** components library that implements material design system
 -   **Emotion** for components styling.
 -   **Vite** for build and tooling.
 -   **Vitest** for test tooling and setup
