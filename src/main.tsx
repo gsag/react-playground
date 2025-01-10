@@ -1,16 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Global } from '@emotion/react'
-import GlobalStyles, { CssBaseline } from '@/globalStyles'
-import ShortenerPage from '@/containers/shortener'
+import GlobalStyles from '@/globalStyles'
 import MainContext, { defaultValue } from '@/contexts/Main.context'
+import MainPage from './pages/Main.page'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <React.Fragment>
-        <CssBaseline />
+    <React.StrictMode>
         <Global styles={GlobalStyles} />
         <MainContext.Provider value={defaultValue}>
-            <ShortenerPage />
+            <MainPage></MainPage>
         </MainContext.Provider>
-    </React.Fragment>
+    </React.StrictMode>
 )
