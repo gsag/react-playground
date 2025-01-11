@@ -1,4 +1,4 @@
-# REACT PLAYGROUND
+# React Playground
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03e87063-5161-42f8-a543-0c535a43ab61/deploy-status?branch=main)](https://app.netlify.com/sites/gsag-react-pg/deploys)
 
