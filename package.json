@@ -13,7 +13,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx ",
     "format": "prettier --write ./src",
-    "test": "vitest"
+    "test": "npx playwright install && vitest",
+    "coverage": "npx playwright install && vitest run --coverage"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -30,7 +31,9 @@
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/browser": "^2.1.0",
+    "@vitest/coverage-v8": "^2.1.8",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
@@ -40,10 +43,12 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "jsdom": "^24.0.0",
     "netlify-cli": "^17.22.1",
+    "playwright": "^1.44.1",
     "prettier": "3.2.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^1.4.0"
+    "vitest": "^2.1.0",
+    "vitest-browser-react": "^0.0.1"
   }
 }

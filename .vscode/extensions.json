@@ -8,6 +8,7 @@
         "jawandarajbir.react-vscode-extension-pack",
         "christian-kohler.path-intellisense",
         "christian-kohler.npm-intellisense",
-        "styled-components.vscode-styled-components"
+        "styled-components.vscode-styled-components",        
+        "vitest.explorer"
     ]
 }
