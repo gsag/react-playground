@@ -13,8 +13,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx ",
     "format": "prettier --write ./src",
-    "pre-test": "npx playwright install-deps && npx playwright install",
+    "pre-test": "npx playwright install --with-deps",
     "test": "npm run pre-test && vitest",
+    "pre-test:ci": "npx playwright install --with-deps chromium",
     "test:ci": "vitest --browser.name=chromium --browser.headless --no-watch",
     "coverage": "npm run pre-test && vitest run --coverage"
   },

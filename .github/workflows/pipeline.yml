@@ -26,6 +26,6 @@ jobs:
     - name: Build
       run: npm run build --if-present
     - name: Install unit tests dependencies
-      run: npm run pre-test
+      run: npm run pre-test:ci
     - name: Unit tests
       run: npm run test:ci
