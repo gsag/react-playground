@@ -25,7 +25,15 @@ jobs:
       run: npm ci
     - name: Build
       run: npm run build --if-present
+    - name: Cache unit tests dependencies
+    - uses: actions/cache@v3
+      id: playwright-cache
+      with:
+        path: |
+          ~/.cache/ms-playwright
+        key: ${{ runner.os }}-playwright-${{ hashFiles('**/package-lock.json') }}
     - name: Install unit tests dependencies
       run: npm run pre-test:ci
+      if: steps.playwright-cache.outputs.cache-hit != 'true'
     - name: Unit tests
       run: npm run test:ci
