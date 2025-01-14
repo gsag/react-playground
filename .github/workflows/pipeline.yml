@@ -10,7 +10,7 @@ on:
 jobs:
   build_and_test:
     name: Build + Tests
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [22.x]
