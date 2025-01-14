@@ -13,8 +13,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx ",
     "format": "prettier --write ./src",
-    "test": "npx playwright install && vitest",
-    "coverage": "npx playwright install && vitest run --coverage"
+    "test:install-deps": "npx playwright install && npx playwright install-deps",
+    "test": "npm run test:install-deps && vitest",
+    "test:ci": "npm run test:install-deps && vitest --browser.name=chromium --browser.headless --no-watch",
+    "coverage": "npm run test:install-deps && vitest run --coverage"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
