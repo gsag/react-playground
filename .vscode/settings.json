@@ -3,7 +3,7 @@
 	"editor.renderControlCharacters": true,
 	"editor.tabCompletion": "on",
 	"editor.formatOnSave": true,
-	"eslint.experimental.useFlatConfig": true,
+	"eslint.useFlatConfig": true,
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -14,7 +14,7 @@
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
 		".eslintrc.*": ".eslintrc.*, .eslintignore",
 		"*.component.tsx": "${capture}.component.*.tsx",
-		"*.container.tsx": "${capture}.container.*.tsx",
+		"*.page.tsx": "${capture}.page.*.tsx",
 		"*.hook.tsx": "${capture}.hook.*.tsx",
 		".env": ".env.local"
 	}

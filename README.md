@@ -1,6 +1,6 @@
-# REACT PLAYGROUND
+# React Playground
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/03e87063-5161-42f8-a543-0c535a43ab61/deploy-status?branch=main)](https://app.netlify.com/sites/gsag-url-shortener/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03e87063-5161-42f8-a543-0c535a43ab61/deploy-status?branch=main)](https://app.netlify.com/sites/gsag-react-pg/deploys) [![React Playground CI - Node.js](https://github.com/gsag/react-playground/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/gsag/react-playground/actions/workflows/pipeline.yml)
 
 Just a playground repo using React + Vite and related stuff.
 

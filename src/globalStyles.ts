@@ -7,6 +7,7 @@ import '@fontsource/roboto/700.css'
 const GlobalStyles = css`
     * {
         font-family: Roboto, sans-serif;
+        font-weight: 200;
     }
 `
 export default GlobalStyles
