@@ -10,8 +10,8 @@
     "build:ci": "netlify init && netlify build",
     "deploy": "netlify login && npm run build:ci && netlify deploy",
     "serve": "npm run build && vite preview --port 3000 --open",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext ts,tsx ",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "format": "prettier --write ./src",
     "test": "vitest"
   },
@@ -23,11 +23,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.2",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
+<<<<<<< Updated upstream
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react": "^4.2.1",
@@ -41,7 +43,23 @@
     "jsdom": "^24.0.0",
     "netlify-cli": "^17.22.1",
     "prettier": "3.2.5",
+=======
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/browser": "^2.1.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0",
+    "jsdom": "^24.0.0",
+    "netlify-cli": "^17.22.1",
+    "playwright": "^1.44.1",
+    "prettier": "^3.4.2",
+>>>>>>> Stashed changes
     "typescript": "^5.2.2",
+    "typescript-eslint": "^8.20.0",
     "vite": "^5.2.0",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.4.0"
